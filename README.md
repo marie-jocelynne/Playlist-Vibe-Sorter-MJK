@@ -6,7 +6,7 @@ I created a playlist sorter that organizes songs based on their energy level. Th
 ## Chosen Algorithm ﹒☆﹒
 I used Merge Sort because it is efficient and works by splitting the list into smaller parts, sorting them, and merging them back together. Its also easy to visualize step-by-step, which makes it a good fit for showing the sorting process in the app.
 
-## Demo ﹒☆﹒
+## Demo Video (screenshot kinda) ﹒☆﹒
 
 ![Demo](demo.gif)
 
