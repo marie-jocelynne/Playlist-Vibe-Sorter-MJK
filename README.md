@@ -56,6 +56,10 @@ Actual: output remains correctly ordered
 Expected: still sorts correctly  
 Actual: works properly
 
+## Input Handling
+
+The app uses a predefined playlist, so an invalid user input is limited. Additoonally, the only user input is the sorting order, which is controlled through a dropdown menu, which prevents invalid input and ensures the program runs correctly.
+
 ## Hugging Face Link ･ᴗ･
 https://huggingface.co/spaces/mariejoce/Playlist-Vibe-Sorter-MJK
 
