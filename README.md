@@ -73,6 +73,3 @@ __
 ## AI Disclosure ﹒☆﹒
 
 I used AI (ChatGPT) to help explain the task in a simpler way so I could better understand the requirements. I also used it to check good approaches for solving the problem. All code decisions and others aspects were written and understood by me.
-
-LINK: 
-
