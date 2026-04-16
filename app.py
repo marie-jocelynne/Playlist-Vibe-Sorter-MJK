@@ -84,7 +84,7 @@ def run_sort():
     sorted_songs = merge_sort(songs, "energy")
 
     # Build the output text for the app.
-    output = "SORTING STEPS:\n\n"
+    output = "MERGE SORT STEPS (sorting by energy):\n\n"
     for step in steps:
         output += step + "\n"
 
@@ -98,7 +98,7 @@ def run_sort():
 # I kept it basic so it is easy to use.
 with gr.Blocks() as demo:
     gr.Markdown("# Playlist Vibe Sorter by Marie-Jocelynne Kasiama")
-    gr.Markdown("Click the button to sort the playlist by energy using Merge Sort and see each step.")
+    gr.Markdown("This app solves the Playlist Vibe Builder problem by sorting songs by energy using Merge Sort and showing the split and merge steps.")
     
     output_box = gr.Textbox(label="Sorting Steps + Final Playlist", lines=20)
     
