@@ -1,55 +1,60 @@
-# Playlist Vibe Sorter by Marie-Jocelynne Kasiama for CISC 121 (Vizualization) 
+# Playlist Vibe Sorter by Marie-Jocelynne Kasiama for CISC 121 (Vizualization) ⋆˚꩜｡
 
-## Chosen Problem
-I created a playlist sorter that organizes songs based on their energy level. This shows how a sorting algorithm can be used in a real-life situation like music playlists.
+## Chosen Problem ﹒☆﹒
+I created a playlist sorter that organizes songs based on their energy level. The user can choose the sorting order (low to high or high to low) using a dropdown menu, making the app interactive. This shows how a sorting algorithm can be applied in a real-life situation like music playlists.
 
-## Chosen Algorithm
-I used Merge Sort because it is efficient and works by splitting the list into smaller parts, sorting them, and merging them back together. It is also easy to visualize step-by-step.
+## Chosen Algorithm ﹒☆﹒
+I used Merge Sort because it is efficient and works by splitting the list into smaller parts, sorting them, and merging them back together. Its also easy to visualize step-by-step, which makes it a good fit for showing the sorting process in the app.
 
-## Demo
+## Demo ﹒☆﹒
 
 ![Demo](demo.gif)
 
-## Problem Breakdown & Computational Thinking
+## Problem Breakdown & Computational Thinking ﹒☆﹒
 
 ### Decomposition
-- Take the playlist
-- Split it into smaller lists
-- Sort each part
-- Merge them back together
+- Take the playlist of songs with energy values
+- Allow the user to choose sorting order (low -> high or high -> low)
+- Split the playlist into smaller lists using Merge Sort
+- Sort each part based on the selected order
+- Merge the lists back together
+- Display both the steps and final sorted playlist
 
 ### Pattern Recognition
-- Repeatedly splitting lists
-- Comparing elements
-- Merging sorted lists
+- Repeatedy splitting lists into halves
+- Compare song energy values
+- Merge sorted sublists in the correct order
+- Applying the same logic regardless of sorting direction
 
 ### Abstraction
-- Only show song titles in steps
-- Hide extra details to keep it simple
+- Only show song titles in sorting steps to keep it readable
+- Hide implementation details like indexes and pointers
+- Let the user interact using a simple dropdown instead of code
+- Focus only on energy values for sorting
 
 ### Algorithm Design
-Input → playlist  
-Process → merge sort  
-Output → sorted playlist + steps  
+Input -> playlist + selected sorting order  
+Process -> merge sort based on energy value  
+Output -> sorted playlist + step-by-step breakdown  
 
 ## Steps to Run
 1. Install gradio:
 2. Run the app: python3 app.py
 3. Open the local URL shown in the terminal (usually http://127.0.0.1:7860)
 
-## Testing
+## Testing ﹒☆﹒
 
 ### Test 1 (Normal case)
-Expected: playlist sorted by energy  
-Actual: songs sorted correctly from lowest to highest energy  
+Expected: playlist sorted correctly based on selected order  
+Actual: songs sorted correctly (both low→high and high→low)
 
 ### Test 2 (Already sorted)
-Expected: no change  
-Actual: output remains the same  
+Expected: minimal changes  
+Actual: output remains correctly ordered
 
 ### Test 3 (Small dataset)
 Expected: still sorts correctly  
-Actual: works properly  
+Actual: works properly
 
-## Hugging Face Link
-(Add link here)
+## Hugging Face Link ･ᴗ･
+https://huggingface.co/spaces/mariejoce/Playlist-Vibe-Sorter-MJK
