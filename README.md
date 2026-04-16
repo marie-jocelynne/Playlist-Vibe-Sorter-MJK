@@ -10,6 +10,10 @@ I used Merge Sort because it is efficient and works by splitting the list into s
 
 ![Demo](demo.gif)
 
+## Flowchart
+
+![Flowchart](flowchart.png)
+
 ## Problem Breakdown & Computational Thinking ﹒☆﹒
 
 ### Decomposition
