@@ -1,4 +1,4 @@
-# Playlist Vibe Sorter by Marie-Jocelynne Kasiama for CISC 121 (Vizualization) ⋆˚꩜｡
+# Playlist Vibe Sorter by Marie-Jocelynne Kasiama - CISC 121 (Vizualization) ⋆˚꩜｡
 
 ## Chosen Problem ﹒☆﹒
 I created a playlist sorter that organizes songs based on their energy level. The user can choose the sorting order (low to high or high to low) using a dropdown menu, making the app interactive. This shows how a sorting algorithm can be applied in a real-life situation like music playlists.
@@ -72,4 +72,7 @@ __
 
 ## AI Disclosure ﹒☆﹒
 
+I used AI (ChatGPT) to help explain the task in a simpler way so I could better understand the requirements. I also used it to check good approaches for solving the problem. All code and implementation decisions were written and understood by me.
+
+LINK: 
 
