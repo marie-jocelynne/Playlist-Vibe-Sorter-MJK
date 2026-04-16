@@ -58,3 +58,10 @@ Actual: works properly
 
 ## Hugging Face Link ･ᴗ･
 https://huggingface.co/spaces/mariejoce/Playlist-Vibe-Sorter-MJK
+
+
+__
+
+## AI Disclosure ﹒☆﹒
+
+
